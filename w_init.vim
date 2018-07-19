@@ -41,3 +41,8 @@ let g:python3_host_prog = '/home/faris/anaconda3/bin/python3'
 
 " Ignore .pyc in NerdTree
 let NERDTreeIgnore=['\.pyc$', '\~$']
+
+" youcompleteme customization:
+let g:ycm_autoclose_preview_window_after_completion=1
+" Shortcup for go to:
+map <leader>g	:YcmCompleter GoToDefinitionElseDeclaration<CR>
