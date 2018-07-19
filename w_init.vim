@@ -26,7 +26,6 @@ Plug 'vim-airline/vim-airline-themes'
 " Language specific
 " Python:
 Plug 'klen/python-mode'
-Plug 
 
 call plug#end()
 
