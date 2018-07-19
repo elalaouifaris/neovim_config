@@ -37,6 +37,9 @@ colorscheme jellybeans
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Key Mappings:
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Teminal Mode:
+tnoremap <Esc> <C-\><C-n>
+
 " split navigation:
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
