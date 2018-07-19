@@ -22,8 +22,11 @@ Plug 'ervandew/supertab'
 Plug 'nanotech/jellybeans.vim', {'tag': 'v1.6'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
 " Language specific
+" Python:
 Plug 'klen/python-mode'
+Plug 
 
 call plug#end()
 
@@ -31,6 +34,20 @@ call plug#end()
 " COLORS & THEMES:
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 colorscheme jellybeans
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Key Mappings:
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" split navigation:
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" youcompleteme customization:
+let g:ycm_autoclose_preview_window_after_completion=1
+" Shortcup for go to:
+map <leader>g	:YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Other Settings:
@@ -42,7 +59,3 @@ let g:python3_host_prog = '/home/faris/anaconda3/bin/python3'
 " Ignore .pyc in NerdTree
 let NERDTreeIgnore=['\.pyc$', '\~$']
 
-" youcompleteme customization:
-let g:ycm_autoclose_preview_window_after_completion=1
-" Shortcup for go to:
-map <leader>g	:YcmCompleter GoToDefinitionElseDeclaration<CR>
