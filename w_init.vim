@@ -37,6 +37,9 @@ colorscheme jellybeans
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Key Mappings:
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map leader key to space:
+let mapleader = "<space>"
+
 " Teminal Mode:
 tnoremap <Esc> <C-\><C-n>
 
