@@ -25,7 +25,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Language specific
 " Python:
-Plug 'klen/python-mode'
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
 call plug#end()
 
