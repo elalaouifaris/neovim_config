@@ -4,6 +4,9 @@
 
 call plug#begin('~/.local/share/nvim/plugged')
 
+" File Browsing
+Plug 'scrooloose/nerdtree'
+
 " Version control
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -35,3 +38,6 @@ colorscheme jellybeans
 " Disable python3 support:
 let g:python_host_prog = '/usr/bin/python2'
 let g:python3_host_prog = '/home/faris/anaconda3/bin/python3'
+
+" Ignore .pyc in NerdTree
+let NERDTreeIgnore=['\.pyc$', '\~$']
