@@ -26,6 +26,7 @@ Plug 'vim-airline/vim-airline-themes'
 " Language specific
 " Python:
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
+Plug 'tmhedberg/simpylfold'
 
 call plug#end()
 
@@ -66,4 +67,3 @@ let g:python3_host_prog = '/home/faris/anaconda3/bin/python3'
 
 " Ignore .pyc in NerdTree
 let NERDTreeIgnore=['\.pyc$', '\~$']
-
